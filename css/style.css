@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+.nav-wrapper {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-size: 18px;
+    flex: 50%;
+    color: #F0360B;
+    font-weight: 600;
+}
+
+.nav-wrapper nav {
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: right;
+    margin-left: 35px;
+    color: #F0360B;
+    opacity: 0.8;
+    letter-spacing: -0.3px
+}
+
+nav .link::after {
+    content: '';
+    border-radius: 5px;
+    width: 0;
+    display: block;
+    height: 3px;
+    transition: width .3s;
+    background: #F0360B;
+}
+
+nav .link:hover::after{
+    width: 70%;
+    transition: width .3s;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 2px solid #F0360B;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: all .7s;
+}
+
+.btn:hover{
+    color: white;
+    background: #F0360B;
+}
+
+.my_nav {
+    padding: 30px 70px 30px 40px;
+    position: absolute;
+    background-color: #F0360B;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 5px 20px rgba(0,0,0,0.2);
+    top: 50%;
+    left: 16%;
+}
+
+.my_nav .heading h5 {
+    font-size: 0.6em;
+    color: white;
+}
+
+.heading span {
+    font-size: 1.6em !important;
+    color: orange;
+}
+
+.my_nav .list {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    transition: all .7s;
+    display: flex;
+}
+
+.list a:hover{
+    color: orange;
+}
+
+.bottom {
+    width: 70px;
+    font-size: 0.7em;
+    color: white;
+
+}
+
+.bottom p {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+}
+
+.content{
+    width: 60%;
+    margin: auto;
+}
+
+.img_back{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 45%;
+    z-index: -1;
+}
+
+.img_back img{
+    margin: auto;
+    width: 800px;
+    height: 500px;
+}
+
+.texts{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 10%;
+}
+
+.texts .name{
+    color: dimgray;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.designation{
+    margin-top: 20px;
+    color: #F0360B;
+    width: 170px;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
